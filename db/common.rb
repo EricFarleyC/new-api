@@ -1,0 +1,1 @@
+puts '===== COMMON SEED'
