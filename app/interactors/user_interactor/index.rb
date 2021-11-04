@@ -3,14 +3,14 @@ module UserInteractor
     include Interactor
 
     def call
-      context.output = index_user        
+      context.output = index_users
     end
-    
+
     private
 
-    delegate to: :context    
+    delegate to: :context
 
-    def index_user
+    def index_users
       User.all
     end
   end
