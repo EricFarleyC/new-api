@@ -8,7 +8,7 @@ module UserInteractor
 
     private
 
-    delegate :user_params_id, to: :context    
+    delegate :user_params_id, to: :context
 
     def show_user
       User.find(user_params_id)
